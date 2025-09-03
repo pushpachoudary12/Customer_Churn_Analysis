@@ -49,7 +49,7 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 
 # 9. Evaluation
-print("✅ Model Evaluation Results")
+print("Model Evaluation Results")
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("\nConfusion Matrix:\n", confusion_matrix(y_test, y_pred))
 print("\nClassification Report:\n", classification_report(y_test, y_pred))
