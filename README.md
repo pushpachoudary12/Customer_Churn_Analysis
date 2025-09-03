@@ -1,4 +1,4 @@
-# Customer_Churn_Analysis #
+# Customer_Churn_Analysis project #
  # importing libraries#
 import pandas as pd  
 import matplotlib.pyplot as plt
